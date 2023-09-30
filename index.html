@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Project</title>
+
+    <style>
+        p {
+            background-color: skyblue;
+            border: 5px solid black;
+            padding: 50px;
+            margin: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        a {
+            color: blue;
+        }
+
+        a:hover {
+            color: rgb(171, 148, 31)
+        }
+
+        .box {
+            background-color: beige;
+            margin: 20px auto;
+            position: relative;
+            height: 300px;
+            width: 450px;
+            border: 5px solid black
+        }
+
+        .box1, .box2 {
+            height: 150px;
+            width: 150px;
+        }
+
+        .box1 {
+            background-color: lightcoral;
+            position: absolute;
+            left: 0px;
+        }
+
+        .box2 {
+            background-color: teal;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        /* body{
+            background-color: grey;
+        }
+        p{
+            background-color: aqua;
+            display: inline;
+             text-align: center;
+             font-family: Arial;
+             font-size: 25px;
+             font-weight: bold;
+             border-style: solid;
+             border-width: 3px;
+             border-color: red;
+            border-radius: 10px;
+        }
+        body {
+            background-image: url('css.png');
+            background-repeat: no-repeat
+        }
+        */
+    </style>
+</head>
+
+<body dir="rtl">
+    <h1>دورة HTML</h1>
+    <h2>وصف الدورة</h2>
+    <p>في هذهِ الدورة ستتعلم CSS والتي تعتبر اختصار من Cascading Style Sheets. وهي لغة لوصف تنسيق ملفات HTML وكيفية
+        عرض
+        عناصرها، مما يعني أن CSS هي جزء أساسي من تصميم الويب أو Web design لأنها تحدد طريقة عرض وتنسيق صفحات الويب،
+        ويمكن كتابة HTML بدون CSS لكن ستكون طريقة عرض العناصر بسيطة وغير منسّقة وجذّابة، كما أنه لايُمكن كتابة CSS بدون
+        HTML، باختصار CSS عبارة عن مجموعة من القواعد للتنسيق تسمح للمتصفح معرفة كيفية عرض العناصر الموجودة بملف HTML،
+        وتساعد على تفاعل المستخدم مع صفحات الويب.</p>
+
+    <a href="google.com">اضغط هنا للذهاب لـGoogle</a><br><br>
+
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+
+    </div>
+</body>
+
+</html>
